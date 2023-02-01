@@ -27,8 +27,8 @@ docker compose start
 ### 4. Логгирование транзакций
 Логгирование в проекте устроено относительно просто, не используется внешних модулей, поэтому на хост не нужно дополнительно ничего устанавливать.
 Через настройки спринга сделан вывод логов по транзакциям в консоль с помощью slf4j, в то же время в контейнере настроен сбор логов в локальный файл, 
-который можно найти на linux хосте: /var/lib/docker/containers/<container-id>/<container-id.log>
+который можно найти на linux хосте: [/var/lib/docker/containers/<container-id>/<container-id.log>]
 либо на windows хосте в виртуальной среде:
-\\wsl$\docker-desktop-data\data\docker\containers\<container-id>\local-logs\container.log
+[\\wsl$\docker-desktop-data\data\docker\containers\<container-id>\local-logs\container.log]
 
 
