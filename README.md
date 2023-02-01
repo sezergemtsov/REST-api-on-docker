@@ -29,6 +29,6 @@ docker compose start
 Через настройки спринга сделан вывод логов по транзакциям в консоль с помощью slf4j, в то же время в контейнере настроен сбор логов в локальный файл, 
 который можно найти на linux хосте: /var/lib/docker/containers/<container-id>/<container-id.log>
 либо на windows хосте в виртуальной среде:
-\ \\wsl$\docker-desktop-data\data\docker\containers\<container-id>\local-logs\container.log
+\\\wsl$\docker-desktop-data\data\docker\containers\<container-id>\local-logs\container.log
 
 
