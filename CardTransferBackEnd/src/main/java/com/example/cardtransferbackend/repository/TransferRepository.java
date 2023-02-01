@@ -9,7 +9,7 @@ import java.util.Map;
 public class TransferRepository {
 
     private final Map<String, TransInfo> transactionsStorage = new HashMap<>();
-    private Integer currentId;
+    private Integer currentId = 10_000;
 
     public void addTransaction(TransInfo info) {
         transactionsStorage.put(String.valueOf(currentId++), info);
