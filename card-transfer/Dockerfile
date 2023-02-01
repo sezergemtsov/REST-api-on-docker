@@ -1,6 +1,6 @@
 FROM node:14.5.0-alpine
 
-COPY / .
+COPY . .
 
 RUN npm install
 RUN npm rebuild node-sass

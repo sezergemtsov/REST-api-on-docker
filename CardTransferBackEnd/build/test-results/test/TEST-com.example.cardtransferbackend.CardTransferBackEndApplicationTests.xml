@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.cardtransferbackend.CardTransferBackEndApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-01T11:38:06" hostname="DESKTOP-R69MFKF" time="9.613">
+<testsuite name="com.example.cardtransferbackend.CardTransferBackEndApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-01T12:28:40" hostname="DESKTOP-R69MFKF" time="9.528">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.cardtransferbackend.CardTransferBackEndApplicationTests" time="9.613"/>
-  <system-out><![CDATA[14:38:02.607 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [CardTransferBackEndApplicationTests]: using SpringBootContextLoader
-14:38:02.617 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.cardtransferbackend.CardTransferBackEndApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-14:38:02.618 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.cardtransferbackend.CardTransferBackEndApplicationTests]: CardTransferBackEndApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-14:38:02.674 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [CardTransferBackEndApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
-14:38:02.769 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\sezer\Netology.Spring\SpringDiploma\CardTransferBackEnd\build\classes\java\main\com\example\cardtransferbackend\CardTransferBackEndApplication.class]
-14:38:02.771 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.cardtransferbackend.CardTransferBackEndApplication for test class com.example.cardtransferbackend.CardTransferBackEndApplicationTests
-14:38:02.921 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
-14:38:02.923 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-14:38:02.926 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [CardTransferBackEndApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
-14:38:02.928 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [CardTransferBackEndApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
-14:38:02.978 [Test worker] DEBUG org.testcontainers.utility.TestcontainersConfiguration - Testcontainers configuration overrides will be loaded from file:/C:/Users/sezer/.testcontainers.properties
-14:38:02.985 [Test worker] INFO org.testcontainers.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
-14:38:03.004 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test class com.example.cardtransferbackend.CardTransferBackEndApplicationTests
+  <testcase name="contextLoads()" classname="com.example.cardtransferbackend.CardTransferBackEndApplicationTests" time="9.528"/>
+  <system-out><![CDATA[15:28:36.388 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [CardTransferBackEndApplicationTests]: using SpringBootContextLoader
+15:28:36.396 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.cardtransferbackend.CardTransferBackEndApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:28:36.398 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.cardtransferbackend.CardTransferBackEndApplicationTests]: CardTransferBackEndApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:28:36.434 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [CardTransferBackEndApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+15:28:36.527 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\sezer\Netology.Spring\SpringDiploma\CardTransferBackEnd\build\classes\java\main\com\example\cardtransferbackend\CardTransferBackEndApplication.class]
+15:28:36.530 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.cardtransferbackend.CardTransferBackEndApplication for test class com.example.cardtransferbackend.CardTransferBackEndApplicationTests
+15:28:36.683 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+15:28:36.686 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+15:28:36.688 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [CardTransferBackEndApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+15:28:36.690 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [CardTransferBackEndApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+15:28:36.750 [Test worker] DEBUG org.testcontainers.utility.TestcontainersConfiguration - Testcontainers configuration overrides will be loaded from file:/C:/Users/sezer/.testcontainers.properties
+15:28:36.759 [Test worker] INFO org.testcontainers.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+15:28:36.776 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test class com.example.cardtransferbackend.CardTransferBackEndApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -24,34 +24,34 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.0.1)
 
--2023-02-01 - 14:38:03 -WARN 17652 --- [Test worker] .e.c.CardTransferBackEndApplicationTests : Starting CardTransferBackEndApplicationTests using Java 17 with PID 17652 (started by sezer in C:\Users\sezer\Netology.Spring\SpringDiploma\CardTransferBackEnd)
---2023-02-01 - 14:38:03 -WARN 17652 --- [Test worker] .e.c.CardTransferBackEndApplicationTests : No active profile set, falling back to 1 default profile: "default"
---2023-02-01 - 14:38:05 -WARN 17652 --- [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
---2023-02-01 - 14:38:05 -WARN 17652 --- [Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
---2023-02-01 - 14:38:05 -WARN 17652 --- [Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
---2023-02-01 - 14:38:05 -WARN 17652 --- [Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
---2023-02-01 - 14:38:05 -WARN 17652 --- [Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1868 ms
---2023-02-01 - 14:38:06 -WARN 17652 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
---2023-02-01 - 14:38:06 -WARN 17652 --- [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 62113 (http) with context path ''
---2023-02-01 - 14:38:06 -WARN 17652 --- [Test worker] .e.c.CardTransferBackEndApplicationTests : Started CardTransferBackEndApplicationTests in 3.163 seconds (process running for 4.939)
---2023-02-01 - 14:38:06 -WARN 17652 --- [Test worker] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
---2023-02-01 - 14:38:06 -WARN 17652 --- [Test worker] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
---2023-02-01 - 14:38:06 -WARN 17652 --- [Test worker] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
---2023-02-01 - 14:38:07 -WARN 17652 --- [Test worker] org.testcontainers.DockerClientFactory   : Connected to docker: 
+-2023-02-01 - 15:28:37 -WARN 10608 --- [Test worker] .e.c.CardTransferBackEndApplicationTests : Starting CardTransferBackEndApplicationTests using Java 17 with PID 10608 (started by sezer in C:\Users\sezer\Netology.Spring\SpringDiploma\CardTransferBackEnd)
+--2023-02-01 - 15:28:37 -WARN 10608 --- [Test worker] .e.c.CardTransferBackEndApplicationTests : No active profile set, falling back to 1 default profile: "default"
+--2023-02-01 - 15:28:38 -WARN 10608 --- [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+--2023-02-01 - 15:28:38 -WARN 10608 --- [Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+--2023-02-01 - 15:28:38 -WARN 10608 --- [Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+--2023-02-01 - 15:28:39 -WARN 10608 --- [Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+--2023-02-01 - 15:28:39 -WARN 10608 --- [Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1848 ms
+--2023-02-01 - 15:28:39 -WARN 10608 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+--2023-02-01 - 15:28:39 -WARN 10608 --- [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53899 (http) with context path ''
+--2023-02-01 - 15:28:39 -WARN 10608 --- [Test worker] .e.c.CardTransferBackEndApplicationTests : Started CardTransferBackEndApplicationTests in 3.115 seconds (process running for 4.889)
+--2023-02-01 - 15:28:40 -WARN 10608 --- [Test worker] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+--2023-02-01 - 15:28:40 -WARN 10608 --- [Test worker] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+--2023-02-01 - 15:28:40 -WARN 10608 --- [Test worker] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+--2023-02-01 - 15:28:40 -WARN 10608 --- [Test worker] org.testcontainers.DockerClientFactory   : Connected to docker: 
   Server Version: 20.10.21
   API Version: 1.41
   Operating System: Docker Desktop
   Total Memory: 5901 MB
---2023-02-01 - 14:38:07 -WARN 17652 --- [Test worker] docker[testcontainers/ryuk:0.3.4]        : Creating container for image: testcontainers/ryuk:0.3.4
---2023-02-01 - 14:38:07 -WARN 17652 --- [Test worker] o.t.utility.RegistryAuthLocator          : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
---2023-02-01 - 14:38:07 -WARN 17652 --- [Test worker] docker[testcontainers/ryuk:0.3.4]        : Container testcontainers/ryuk:0.3.4 is starting: 4a6e5d50d71fea5fb0df6080122b681076193097ace1f3f8958e4841be05b2c8
---2023-02-01 - 14:38:08 -WARN 17652 --- [Test worker] docker[testcontainers/ryuk:0.3.4]        : Container testcontainers/ryuk:0.3.4 started in PT1.1878117S
---2023-02-01 - 14:38:08 -WARN 17652 --- [Test worker] o.t.utility.RyukResourceReaper           : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
---2023-02-01 - 14:38:08 -WARN 17652 --- [Test worker] org.testcontainers.DockerClientFactory   : Checking the system...
---2023-02-01 - 14:38:08 -WARN 17652 --- [Test worker] org.testcontainers.DockerClientFactory   : ?? Docker server version should be at least 1.6.0
---2023-02-01 - 14:38:08 -WARN 17652 --- [Test worker] docker[jdk17b:latest]                    : Creating container for image: jdk17b:latest
---2023-02-01 - 14:38:08 -WARN 17652 --- [Test worker] docker[jdk17b:latest]                    : Container jdk17b:latest is starting: 70c102d0d0f1cda16523f6bd3c19297e07c61be12227651e67f40b4b2dd02277
---2023-02-01 - 14:38:14 -WARN 17652 --- [Test worker] docker[jdk17b:latest]                    : Container jdk17b:latest started in PT5.8657773S
+--2023-02-01 - 15:28:40 -WARN 10608 --- [Test worker] docker[testcontainers/ryuk:0.3.4]        : Creating container for image: testcontainers/ryuk:0.3.4
+--2023-02-01 - 15:28:41 -WARN 10608 --- [Test worker] o.t.utility.RegistryAuthLocator          : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+--2023-02-01 - 15:28:41 -WARN 10608 --- [Test worker] docker[testcontainers/ryuk:0.3.4]        : Container testcontainers/ryuk:0.3.4 is starting: cf5d14f1050b18ae2db40d008f749b032f70d9174ed4825852a5988107be0c3e
+--2023-02-01 - 15:28:42 -WARN 10608 --- [Test worker] docker[testcontainers/ryuk:0.3.4]        : Container testcontainers/ryuk:0.3.4 started in PT1.1618457S
+--2023-02-01 - 15:28:42 -WARN 10608 --- [Test worker] o.t.utility.RyukResourceReaper           : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+--2023-02-01 - 15:28:42 -WARN 10608 --- [Test worker] org.testcontainers.DockerClientFactory   : Checking the system...
+--2023-02-01 - 15:28:42 -WARN 10608 --- [Test worker] org.testcontainers.DockerClientFactory   : ?? Docker server version should be at least 1.6.0
+--2023-02-01 - 15:28:42 -WARN 10608 --- [Test worker] docker[jdk17b:latest]                    : Creating container for image: jdk17b:latest
+--2023-02-01 - 15:28:42 -WARN 10608 --- [Test worker] docker[jdk17b:latest]                    : Container jdk17b:latest is starting: a681c69eaac850cbc5c0009354815ca75ba9205279fa2b6c7836b1c5ca85562b
+--2023-02-01 - 15:28:47 -WARN 10608 --- [Test worker] docker[jdk17b:latest]                    : Container jdk17b:latest started in PT5.6717798S
 -Respond200[operationId=null]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -1,6 +1,5 @@
 package com.example.cardtransferbackend.service;
 
-import com.example.cardtransferbackend.exceptions.ServerInternalErrorException;
 import com.example.cardtransferbackend.exceptions.responseEntities.Respond200;
 import com.example.cardtransferbackend.models.TransInfo;
 import com.example.cardtransferbackend.models.TransactionValidation;
@@ -26,9 +25,6 @@ public class TransferService {
     }
 
     public Respond200 confirm(TransactionValidation validation) {
-        if (!repository.inspectCode(Integer.parseInt(validation.code()))) {
-            throw new ServerInternalErrorException("Транзакция не была проведена");
-        }
         logger.warn(validation.toString());
         return new Respond200(validation.operationId());
     }
