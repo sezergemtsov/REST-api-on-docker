@@ -1,0 +1,23 @@
+version: '2'
+
+services:
+
+  server-front:
+
+    image: node14front
+    build: ./card-transfer
+    ports:
+      - 3000:3000
+      
+      
+  server-back:
+
+    image: jdk17b
+    build: ./CardTransferBackEnd
+    ports:
+      - 5500:5500
+    logging:
+      driver: "local"
+      options:
+        max-size: "10m"
+        max-file: "3"
